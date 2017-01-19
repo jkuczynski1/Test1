@@ -10,13 +10,14 @@ class Main {
 
     public static void main(String[] args) {
         System.out.println("Hi world.");
-        System.out.println("I can count to 5.");
+        System.out.println("I can count to 5.\n");
         ArrayList<Integer> numList = new ArrayList<>();
         numList.add(0); numList.add(1);numList.add(2);numList.add(3);numList.add(4);numList.add(5);
         for (int aa: numList
              ) {
-            System.out.println(aa+"...");
+            System.out.print(aa+"...");
         }
         System.out.println("Done!");
+        System.out.println("Program complete.");
     }
 }
